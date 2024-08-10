@@ -13,6 +13,10 @@
 		FF48FB202B1D170800626B18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF48FB1E2B1D170800626B18 /* Main.storyboard */; };
 		FF48FB222B1D170900626B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF48FB212B1D170900626B18 /* Assets.xcassets */; };
 		FF48FB252B1D170900626B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF48FB232B1D170900626B18 /* LaunchScreen.storyboard */; };
+		FF48FB2D2B1D292B00626B18 /* BoardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48FB2C2B1D292B00626B18 /* BoardItem.swift */; };
+		FF48FB2F2B1D294F00626B18 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48FB2E2B1D294F00626B18 /* Board.swift */; };
+		FF48FB312B1D296B00626B18 /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48FB302B1D296B00626B18 /* Turn.swift */; };
+		FF48FB332B1D298800626B18 /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48FB322B1D298800626B18 /* BoardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FF48FB212B1D170900626B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF48FB242B1D170900626B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF48FB262B1D170900626B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF48FB2C2B1D292B00626B18 /* BoardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardItem.swift; sourceTree = "<group>"; };
+		FF48FB2E2B1D294F00626B18 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		FF48FB302B1D296B00626B18 /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
+		FF48FB322B1D298800626B18 /* BoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,9 @@
 		FF48FB0C2B1D170700626B18 = {
 			isa = PBXGroup;
 			children = (
+				FF48FB2E2B1D294F00626B18 /* Board.swift */,
+				FF48FB302B1D296B00626B18 /* Turn.swift */,
+				FF48FB322B1D298800626B18 /* BoardCell.swift */,
 				FF48FB172B1D170800626B18 /* ConnectFourGame */,
 				FF48FB162B1D170800626B18 /* Products */,
 			);
@@ -59,6 +70,7 @@
 				FF48FB182B1D170800626B18 /* AppDelegate.swift */,
 				FF48FB1A2B1D170800626B18 /* SceneDelegate.swift */,
 				FF48FB1C2B1D170800626B18 /* ViewController.swift */,
+				FF48FB2C2B1D292B00626B18 /* BoardItem.swift */,
 				FF48FB1E2B1D170800626B18 /* Main.storyboard */,
 				FF48FB212B1D170900626B18 /* Assets.xcassets */,
 				FF48FB232B1D170900626B18 /* LaunchScreen.storyboard */,
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF48FB1D2B1D170800626B18 /* ViewController.swift in Sources */,
+				FF48FB2D2B1D292B00626B18 /* BoardItem.swift in Sources */,
+				FF48FB2F2B1D294F00626B18 /* Board.swift in Sources */,
 				FF48FB192B1D170800626B18 /* AppDelegate.swift in Sources */,
+				FF48FB312B1D296B00626B18 /* Turn.swift in Sources */,
+				FF48FB332B1D298800626B18 /* BoardCell.swift in Sources */,
 				FF48FB1B2B1D170800626B18 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
